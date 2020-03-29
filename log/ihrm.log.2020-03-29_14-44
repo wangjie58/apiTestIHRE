@@ -1,0 +1,11 @@
+2020-03-29 14:43:59,594 INFO [root] [__init__.py(<module>:11)] - TEst2-------------------
+2020-03-29 14:43:59,803 INFO [root] [test_emp2.py(test01_login:115)] - 员工模块登录接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '8b4f95f9-fac4-4085-92ad-30edb579ec9c'}
+2020-03-29 14:43:59,803 INFO [root] [test_emp2.py(test01_login:119)] - 登录成功后设置的请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 8b4f95f9-fac4-4085-92ad-30edb579ec9c'}
+2020-03-29 14:43:59,883 INFO [root] [test_emp2.py(test02_add_emp:129)] - 添加员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1244153313636995072'}}
+2020-03-29 14:43:59,884 INFO [root] [test_emp2.py(test02_add_emp:135)] - app.EMPID为：1244153313636995072
+2020-03-29 14:43:59,960 INFO [root] [test_emp2.py(test03_query_emp:145)] - 查询员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1244153313636995072', 'mobile': '14790123819', 'username': '葫r9', 'password': '46ae6276975b7af98cb7af7d3ed74731', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1226092852421177344', 'timeOfEntry': '2020-03-16T00:00:00.000+0000', 'formOfEmployment': 2, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-03-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': 'snowsnow', 'roleIds': [], 'staffPhoto': None}}
+2020-03-29 14:44:00,048 INFO [root] [test_emp2.py(test04_modify_emp:155)] - 修改员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1244153313636995072'}}
+2020-03-29 14:44:00,230 INFO [root] [test_emp2.py(test04_modify_emp:174)] - 打印SQL语句：select username from bs_user where id=1244153313636995072
+2020-03-29 14:44:00,280 INFO [root] [test_emp2.py(test04_modify_emp:180)] - 执行SQL语句查询的结果为：('金刚ghu',)
+2020-03-29 14:44:00,378 INFO [root] [test_emp2.py(test05_delete_emp:197)] - 删除员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-03-29 14:44:14,699 INFO [root] [__init__.py(<module>:11)] - TEst2-------------------
